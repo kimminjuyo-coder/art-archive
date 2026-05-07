@@ -5,7 +5,7 @@ import sys
 from datetime import datetime, timezone
 
 # 노션 Integration 토큰 패턴: secret_ 로 시작, 영숫자 32자 이상
-_TOKEN_PATTERN = re.compile(r"secret_[A-Za-z0-9]{32,}")
+_TOKEN_PATTERN = re.compile(r"\bsecret_[A-Za-z0-9]{32,}\b")
 
 
 def mask_secrets(text: str) -> str:

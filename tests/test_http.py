@@ -1,6 +1,6 @@
 import pytest
 import requests
-from src.utils.http import build_session, RETRY_STATUS
+from src.utils.http import build_session, RETRY_STATUS, DEFAULT_TIMEOUT
 
 
 def test_session_has_retry_on_5xx():
@@ -23,3 +23,8 @@ def test_4xx_not_retried():
     retry = adapter.max_retries
     assert 404 not in retry.status_forcelist
     assert 403 not in retry.status_forcelist
+
+
+def test_default_timeout_constant_exported():
+    from src.utils.http import DEFAULT_TIMEOUT
+    assert DEFAULT_TIMEOUT == 15

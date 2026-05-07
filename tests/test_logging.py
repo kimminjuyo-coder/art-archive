@@ -30,3 +30,25 @@ def test_logger_masks_token_in_message(capsys):
     captured = capsys.readouterr().err
     assert "secret_AbCdEf" not in captured
     assert "***" in captured
+
+
+def test_mask_secrets_does_not_match_substring():
+    # 'secret_' embedded inside a larger word must NOT be masked
+    msg = "user_secret_AbCdEf1234567890AbCdEf1234567890AbCdEf12"
+    out = mask_secrets(msg)
+    # Original token text should still be present (not redacted)
+    assert "user_secret_AbCdEf" in out
+    assert "***" not in out
+
+
+def test_mask_secrets_matches_token_with_separator():
+    # After =, space, ( must still match
+    cases = [
+        "token=secret_AbCdEf1234567890AbCdEf1234567890AbCdEf12",
+        "the secret_AbCdEf1234567890AbCdEf1234567890AbCdEf12 used",
+        "(secret_AbCdEf1234567890AbCdEf1234567890AbCdEf12)",
+    ]
+    for c in cases:
+        out = mask_secrets(c)
+        assert "secret_AbCdEf" not in out, f"failed to mask in: {c}"
+        assert "***" in out
