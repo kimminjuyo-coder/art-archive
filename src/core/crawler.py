@@ -1,13 +1,11 @@
 import time
 from dataclasses import dataclass
-from typing import Literal
 
-from src.core.models import Exhibition
+from src.core.models import ExhibitionType
 from src.utils.logging import get_logger
 
 logger = get_logger(__name__)
 
-ExhibitionType = Literal["개인전", "단체전", "기획전", "미상"]
 SOLO_KEYWORD = "개인전"
 
 
