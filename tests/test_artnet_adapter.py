@@ -40,3 +40,45 @@ def test_parse_no_dates():
     assert ex.end_date is None
     assert ex.year is None  # 날짜·전시명 모두 연도 추출 불가
     assert ex.artists_kr == ["김작가"]
+
+
+class _StubResponse:
+    def __init__(self, text, status=200):
+        self.text = text
+        self.status_code = status
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise RuntimeError(f"HTTP {self.status_code}")
+
+
+class _StubSession:
+    def __init__(self, page_map):
+        self._map = page_map
+    def get(self, url, **kw):
+        if url in self._map:
+            return _StubResponse(self._map[url])
+        return _StubResponse("", status=404)
+
+
+def test_list_from_top_yields_urls_in_order():
+    list_html = (FIX / "list_page.html").read_text(encoding="utf-8")
+    session = _StubSession({"https://artnet.kr/exhibitions?page=1": list_html})
+    adapter = ArtnetAdapter(session=session, max_list_pages=2)
+    urls = list(adapter.list_from_top())
+    # next-page 링크 있어 page=2 호출 → 404 stub → 종료
+    assert urls[:7] == [
+        "https://artnet.kr/exh/100",
+        "https://artnet.kr/exh/101",
+        "https://artnet.kr/exh/102",
+        "https://artnet.kr/exh/103",
+        "https://artnet.kr/exh/104",
+        "https://artnet.kr/exh/105",
+        "https://artnet.kr/exh/106",
+    ]
+
+
+def test_list_from_top_stops_when_no_anchors():
+    session = _StubSession({"https://artnet.kr/exhibitions?page=1": "<html></html>"})
+    adapter = ArtnetAdapter(session=session, max_list_pages=10)
+    urls = list(adapter.list_from_top())
+    assert urls == []
