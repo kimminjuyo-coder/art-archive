@@ -1,0 +1,36 @@
+name: backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      adapter:
+        description: "어댑터 이름"
+        required: true
+        default: "artnet"
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run backfill
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
+        run: |
+          mkdir -p logs state
+          python -m src.run_backfill --adapter "${{ inputs.adapter }}" 2> logs/$(date +%Y-%m).jsonl
+      - name: Commit state and logs
+        run: |
+          git config user.name "art-archive-bot"
+          git config user.email "actions@github.com"
+          git add state logs
+          git diff --cached --quiet || git commit -m "chore(state): backfill $(date +%Y-%m-%d)"
+          git push
