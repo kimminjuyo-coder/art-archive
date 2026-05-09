@@ -1,6 +1,6 @@
 from __future__ import annotations
 from datetime import datetime, timezone
-from typing import Iterable, Protocol
+from typing import Protocol
 from src.core.models import Exhibition
 
 EXHIBITION_TYPE_OPTIONS = ["개인전", "단체전", "기획전", "미상"]
