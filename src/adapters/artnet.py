@@ -6,8 +6,10 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from src.adapters.base import SiteAdapter
 from src.core.models import Exhibition
-from src.utils.http import build_session
+from src.utils.http import build_session, DEFAULT_TIMEOUT
 
+# TODO(phase-7): real artnet.kr selectors and date formats must be validated
+# against the live site. Sample fixtures + selectors below are placeholders.
 BASE_URL = "https://artnet.kr"
 LIST_URL_TEMPLATE = "https://artnet.kr/exhibitions?page={page}"
 
@@ -84,14 +86,14 @@ class ArtnetAdapter(SiteAdapter):
 
     # --- SiteAdapter 구현 ---
     def parse_detail(self, url: str) -> Exhibition:
-        resp = self._session.get(url)
+        resp = self._session.get(url, timeout=DEFAULT_TIMEOUT)
         resp.raise_for_status()
         return self._parse_html(url, resp.text)
 
     def list_from_top(self) -> Iterator[str]:
         for page in range(1, self._max_list_pages + 1):
             url = LIST_URL_TEMPLATE.format(page=page)
-            resp = self._session.get(url)
+            resp = self._session.get(url, timeout=DEFAULT_TIMEOUT)
             if resp.status_code == 404:
                 return
             resp.raise_for_status()

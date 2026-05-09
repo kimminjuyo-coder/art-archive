@@ -1,7 +1,6 @@
 from datetime import date
 from pathlib import Path
-import pytest
-from src.adapters.artnet import ArtnetAdapter, BASE_URL
+from src.adapters.artnet import ArtnetAdapter
 
 FIX = Path(__file__).parent / "fixtures" / "artnet"
 
