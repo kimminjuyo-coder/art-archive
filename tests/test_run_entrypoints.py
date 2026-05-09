@@ -50,3 +50,19 @@ def test_run_daily_returns_exit_1_on_zero_activity(tmp_path: Path, monkeypatch):
     code = run_daily_mod.main(["--adapter", "artnet"])
     # inserted=0, skipped=0 → 알림 신호로 exit 1
     assert code == 1
+
+
+import src.run_backfill as run_backfill_mod
+
+
+def test_run_backfill_writes_state(tmp_path: Path, monkeypatch):
+    state_file = tmp_path / "state.json"
+    notion = FakeNotionClient()
+    monkeypatch.setattr(run_backfill_mod, "build_adapter", lambda name: _StaticAdapter())
+    monkeypatch.setattr(run_backfill_mod, "build_notion_client", lambda: notion)
+    monkeypatch.setattr(run_backfill_mod, "STATE_FILE", state_file)
+    code = run_backfill_mod.main(["--adapter", "artnet"])
+    assert code == 0
+    saved = json.loads(state_file.read_text(encoding="utf-8"))
+    assert saved["artnet"]["last_mode"] == "backfill"
+    assert saved["artnet"]["inserted"] == 1
