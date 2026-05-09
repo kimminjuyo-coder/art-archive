@@ -8,10 +8,8 @@ from dotenv import load_dotenv
 from src.core.crawler import Crawler
 from src.core.notion_client import NotionClient
 from src.core.state import load_state, save_state
-from src.utils.logging import get_logger
 
 STATE_FILE = Path("state/state.json")
-logger = get_logger(__name__)
 
 
 def build_adapter(name: str):

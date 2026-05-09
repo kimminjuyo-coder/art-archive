@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
-from datetime import date
 from src.core.models import Exhibition
 import src.run_daily as run_daily_mod
+import src.run_backfill as run_backfill_mod
 from tests.fakes import FakeNotionClient
 
 
@@ -50,9 +50,6 @@ def test_run_daily_returns_exit_1_on_zero_activity(tmp_path: Path, monkeypatch):
     code = run_daily_mod.main(["--adapter", "artnet"])
     # inserted=0, skipped=0 → 알림 신호로 exit 1
     assert code == 1
-
-
-import src.run_backfill as run_backfill_mod
 
 
 def test_run_backfill_writes_state(tmp_path: Path, monkeypatch):
