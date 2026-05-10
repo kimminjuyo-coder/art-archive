@@ -10,3 +10,6 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# 작업용 사이트 HTML 샘플 (분석 후 fixtures로 옮긴 것)
+/*.html
