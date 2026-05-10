@@ -24,8 +24,10 @@ jobs:
           NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
         run: |
           mkdir -p logs state
-          python -m src.run_daily --adapter artnet 2> logs/$(date +%Y-%m).jsonl
+          set -o pipefail
+          python -m src.run_daily --adapter artnet 2>&1 | tee -a logs/$(date +%Y-%m).jsonl
       - name: Commit state and logs
+        if: always()
         run: |
           git config user.name "art-archive-bot"
           git config user.email "actions@github.com"
