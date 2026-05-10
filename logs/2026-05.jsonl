@@ -103,3 +103,5 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/notion_client/client.py", line 126, in _parse_response
     raise APIResponseError(response, body["message"], code)
 notion_client.errors.APIResponseError: API token is invalid.
+{"ts": "2026-05-10T08:22:07+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "backfill", "adapter": "artnet"}
+{"ts": "2026-05-10T08:22:10+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "backfill", "adapter": "artnet", "inserted": 0, "skipped_dup": 0, "errors": 0, "aborted": false, "duration_sec": 3.14}
