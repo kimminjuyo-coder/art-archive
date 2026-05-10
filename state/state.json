@@ -1,9 +1,9 @@
 {
   "artnet": {
-    "last_run_at": "2026-05-10T13:01:20+00:00",
-    "last_mode": "backfill",
-    "inserted": 395,
-    "skipped_dup": 0,
-    "errors": 1
+    "last_run_at": "2026-05-10T20:11:43+00:00",
+    "last_mode": "daily",
+    "inserted": 0,
+    "skipped_dup": 5,
+    "errors": 0
   }
 }
