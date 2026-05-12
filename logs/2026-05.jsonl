@@ -511,3 +511,8 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-11T21:55:27+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1340", "title": "[청주 갤러리 원] A관 문희 초대개인전 \"﻿살아있다는 것은_\""}
 {"ts": "2026-05-11T21:55:28+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-11T21:55:28+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.64}
+{"ts": "2026-05-12T21:58:04+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-12T21:58:59+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1343", "title": "Desperate"}
+{"ts": "2026-05-12T21:59:00+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1342", "title": "김단 개인전《기억과 공간》"}
+{"ts": "2026-05-12T21:59:01+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-12T21:59:01+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 57.1}
