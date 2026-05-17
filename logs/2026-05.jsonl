@@ -531,3 +531,6 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-16T20:32:43+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
 {"ts": "2026-05-16T20:32:46+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-16T20:32:46+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 3.44}
+{"ts": "2026-05-17T20:35:42+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-17T20:35:45+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-17T20:35:45+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 3.37}
