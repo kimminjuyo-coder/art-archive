@@ -545,3 +545,12 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-19T22:42:27+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1349", "title": "[제주갤러리] 2026 제주갤러리 기획전 Ⅰ -  《당신이 다른 계획을 세우느라 바쁜 동안에도 제주의 바람은…"}
 {"ts": "2026-05-19T22:42:28+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-19T22:42:28+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 4, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 9.91}
+{"ts": "2026-05-20T22:55:31+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-20T22:55:35+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1358", "title": "尋山窯 김종훈: 월항, 달의 숲에서"}
+{"ts": "2026-05-20T22:55:36+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1357", "title": "빛나는 침묵의 숲"}
+{"ts": "2026-05-20T22:55:38+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1356", "title": "스스로 그러한 숲"}
+{"ts": "2026-05-20T22:55:40+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1355", "title": "《Enchanted Land》주지수展"}
+{"ts": "2026-05-20T22:55:41+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1354", "title": "《프로젝트 김세중, 구축과 이탈》"}
+{"ts": "2026-05-20T22:55:42+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1353", "title": "[갤러리 원]마해송 개인전\"1평\""}
+{"ts": "2026-05-20T22:55:43+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-20T22:55:43+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 6, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 12.49}
