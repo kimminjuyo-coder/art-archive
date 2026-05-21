@@ -554,3 +554,7 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-20T22:55:42+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1353", "title": "[갤러리 원]마해송 개인전\"1평\""}
 {"ts": "2026-05-20T22:55:43+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-20T22:55:43+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 6, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 12.49}
+{"ts": "2026-05-21T22:50:15+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-21T22:50:19+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1359", "title": "숲을 지나 바다"}
+{"ts": "2026-05-21T22:50:20+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-21T22:50:20+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.96}
