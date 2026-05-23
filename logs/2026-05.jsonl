@@ -564,3 +564,7 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-22T21:47:41+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1360", "title": "나의 인류 Toward My Humanity"}
 {"ts": "2026-05-22T21:47:42+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-22T21:47:42+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 10.11}
+{"ts": "2026-05-23T20:34:47+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-23T20:34:51+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1363", "title": "[세종뮤지엄갤러리 기획초대전]시간의 꽃, 존재의 서사 김선태 기획초대전"}
+{"ts": "2026-05-23T20:34:52+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-23T20:34:52+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.41}
