@@ -577,3 +577,9 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-26T22:51:25+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
 {"ts": "2026-05-26T22:51:33+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-26T22:51:33+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 8.12}
+{"ts": "2026-05-27T23:03:58+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-27T23:04:57+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1366", "title": "[한옥 팝업 전시] 몬드킴 Rose in Flux : House"}
+{"ts": "2026-05-27T23:04:58+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1365", "title": "안개 너머의 안갯속"}
+{"ts": "2026-05-27T23:05:00+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1364", "title": "Moments in Flow"}
+{"ts": "2026-05-27T23:05:01+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-27T23:05:01+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 62.71}
