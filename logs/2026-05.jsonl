@@ -587,3 +587,8 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-28T23:01:36+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1367", "title": "THRESHOLD 고혜진 개인전"}
 {"ts": "2026-05-28T23:01:37+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-28T23:01:37+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 12.68}
+{"ts": "2026-05-29T20:21:45+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-29T20:21:54+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1369", "title": "그늘 끝에 스미는 빛"}
+{"ts": "2026-05-29T20:21:55+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1368", "title": "김진희 초대전 <Wish>"}
+{"ts": "2026-05-29T20:21:56+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-29T20:21:56+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 10.56}
