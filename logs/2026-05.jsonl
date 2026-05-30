@@ -592,3 +592,10 @@ notion_client.errors.APIResponseError: API token is invalid.
 {"ts": "2026-05-29T20:21:55+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1368", "title": "김진희 초대전 <Wish>"}
 {"ts": "2026-05-29T20:21:56+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-05-29T20:21:56+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 10.56}
+{"ts": "2026-05-30T19:08:59+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-05-30T19:09:07+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1373", "title": "《FOR LONER》"}
+{"ts": "2026-05-30T19:09:09+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1372", "title": "[청주 갤러리 원] B관 이문종 초대개인전 \"歲寒心事久彌堅 - 세한이 오래될수록 내면은 더욱 견고해진다.\""}
+{"ts": "2026-05-30T19:09:10+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1371", "title": "[청주 갤러리 원] A관 안혜리 개인전 \"﻿﻿마음의 머무는 결\""}
+{"ts": "2026-05-30T19:09:11+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1370", "title": "김보라 초대 개인전 <초록평선>"}
+{"ts": "2026-05-30T19:09:12+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-05-30T19:09:12+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 4, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 13.23}
