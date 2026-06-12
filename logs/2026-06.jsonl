@@ -39,3 +39,8 @@
 {"ts": "2026-06-11T20:17:53+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
 {"ts": "2026-06-11T20:17:57+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-06-11T20:17:57+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.55}
+{"ts": "2026-06-12T20:06:47+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-06-12T20:06:50+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1383", "title": "2026 OCI YOUNG CREATIVES 줄리언 리 개인전 《Off-line IMAGE》"}
+{"ts": "2026-06-12T20:06:51+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1382", "title": "2026 OCI YOUNG CREATIVES 서도이 개인전 《정복되지 않은 세계》"}
+{"ts": "2026-06-12T20:06:52+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-06-12T20:06:52+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.3}
