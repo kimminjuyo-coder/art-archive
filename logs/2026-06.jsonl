@@ -95,3 +95,9 @@
 {"ts": "2026-06-25T19:56:03+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1395", "title": "A Girl From Wonderland"}
 {"ts": "2026-06-25T19:56:04+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-06-25T19:56:04+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.09}
+{"ts": "2026-06-26T19:43:12+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-06-26T19:43:24+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1398", "title": "2026 제주갤러리 공모 선정 작가 - 이선희 개인전 《노마디즘 (Nomadism)》"}
+{"ts": "2026-06-26T19:43:25+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1397", "title": "Sand Garden"}
+{"ts": "2026-06-26T19:43:27+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1396", "title": "TRACING THE RAINBOW : 무지개를 따라가다 보면"}
+{"ts": "2026-06-26T19:43:28+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-06-26T19:43:28+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 15.29}
