@@ -1,8 +1,8 @@
 {
   "artnet": {
-    "last_run_at": "2026-06-30T19:51:15+00:00",
+    "last_run_at": "2026-07-01T19:50:14+00:00",
     "last_mode": "daily",
-    "inserted": 0,
+    "inserted": 1,
     "skipped_dup": 5,
     "errors": 0
   }
