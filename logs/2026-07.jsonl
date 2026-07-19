@@ -72,3 +72,7 @@
 {"ts": "2026-07-18T18:59:23+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1419", "title": "김선종 개인전《 황혼 속 기어오는 자 The Creeper in the Dusk 》"}
 {"ts": "2026-07-18T18:59:24+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-07-18T18:59:24+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 4, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 8.43}
+{"ts": "2026-07-19T19:01:30+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-07-19T19:01:34+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1423", "title": "2026 이여몽 개인전 <STORY>"}
+{"ts": "2026-07-19T19:01:35+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-07-19T19:01:35+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.47}
