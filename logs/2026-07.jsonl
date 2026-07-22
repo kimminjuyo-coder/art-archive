@@ -86,3 +86,8 @@
 {"ts": "2026-07-21T19:16:26+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1427", "title": "《Theme Thanatos & Donguri》"}
 {"ts": "2026-07-21T19:16:27+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-07-21T19:16:27+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.09}
+{"ts": "2026-07-22T19:11:33+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-07-22T19:11:41+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1429", "title": "[CN갤러리] 이종섭 개인전 <UP TO 40% OFF>"}
+{"ts": "2026-07-22T19:11:42+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1428", "title": "시니어 신진예술가 특별전 III - 허주 작가 <보고 싶은 나의 계절에게 : 여름의 출발>"}
+{"ts": "2026-07-22T19:11:43+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-07-22T19:11:43+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 10.05}
