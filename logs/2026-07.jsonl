@@ -102,3 +102,7 @@
 {"ts": "2026-07-25T19:02:28+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
 {"ts": "2026-07-25T19:02:31+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-07-25T19:02:31+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 3.77}
+{"ts": "2026-07-26T19:05:43+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-07-26T19:05:48+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1432", "title": "김효훈 개인전 《무명의 정원》"}
+{"ts": "2026-07-26T19:05:49+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-07-26T19:05:49+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.16}
