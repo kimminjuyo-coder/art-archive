@@ -106,3 +106,22 @@
 {"ts": "2026-07-26T19:05:48+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1432", "title": "김효훈 개인전 《무명의 정원》"}
 {"ts": "2026-07-26T19:05:49+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-07-26T19:05:49+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.16}
+{"ts": "2026-07-27T19:22:26+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/art-archive/art-archive/src/run_daily.py", line 71, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/art-archive/art-archive/src/run_daily.py", line 50, in main
+    result = crawler.run(mode="daily")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/art-archive/art-archive/src/core/crawler.py", line 63, in run
+    for url in self.adapter.list_from_top():
+  File "/home/runner/work/art-archive/art-archive/src/adapters/artnet.py", line 75, in list_from_top
+    yield from self._iter_endpoint(start_url)
+  File "/home/runner/work/art-archive/art-archive/src/adapters/artnet.py", line 83, in _iter_endpoint
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://artnet.kr/p/solo-exhibitions
