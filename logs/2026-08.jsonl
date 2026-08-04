@@ -10,3 +10,7 @@
 {"ts": "2026-08-03T19:25:56+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1441", "title": "신체의 증언 경계를 넘는 메신저:2000~2026"}
 {"ts": "2026-08-03T19:25:57+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-03T19:25:57+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.25}
+{"ts": "2026-08-04T19:27:31+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-04T19:27:35+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1442", "title": "[청주 갤러리 원] A관 최철기 도예 개인전 \"선(線), 가장 단순한 것에서 가장 깊은 아름다움을 찾다.\""}
+{"ts": "2026-08-04T19:27:36+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-04T19:27:36+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.35}
