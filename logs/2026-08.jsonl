@@ -20,3 +20,9 @@
 {"ts": "2026-08-05T19:25:06+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1443", "title": "No Reason"}
 {"ts": "2026-08-05T19:25:07+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-05T19:25:07+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 7.38}
+{"ts": "2026-08-06T23:55:03+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-06T23:55:07+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1449", "title": "[제주갤러리] 2026 제주갤러리 공모 선정 작가 - 최은영 개인전 《나는 무엇을 하다 죽을까》"}
+{"ts": "2026-08-06T23:55:08+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1448", "title": "﻿세종뮤지엄갤러리 특별기획전 <인연因緣, 두 번째>"}
+{"ts": "2026-08-06T23:55:10+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1447", "title": "[아트코드갤러리] 임지빈, 김병관 2인전《매일, 다시》Everyday, Again"}
+{"ts": "2026-08-06T23:55:11+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-06T23:55:11+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 7.19}
