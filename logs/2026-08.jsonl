@@ -42,3 +42,9 @@
 {"ts": "2026-08-10T18:52:30+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1453", "title": "[세종뮤지엄갤러리 특별기획전] 인연因緣, 두 번째"}
 {"ts": "2026-08-10T18:52:31+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-10T18:52:31+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.0}
+{"ts": "2026-08-11T18:57:18+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-11T18:57:22+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1456", "title": "2026 귀한인연 윤기언 개인전 《흑백의 분투》"}
+{"ts": "2026-08-11T18:57:23+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1455", "title": "2026 OCI YOUNG CREATIVES 장승근 개인전 《피할 수 없는 것들을 향한 건조하고도 명백한 사…"}
+{"ts": "2026-08-11T18:57:24+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1454", "title": "2026 OCI YOUNG CREATIVES 윤정민 개인전 《꼴》"}
+{"ts": "2026-08-11T18:57:25+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-11T18:57:25+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 6.97}
