@@ -48,3 +48,8 @@
 {"ts": "2026-08-11T18:57:24+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1454", "title": "2026 OCI YOUNG CREATIVES 윤정민 개인전 《꼴》"}
 {"ts": "2026-08-11T18:57:25+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-11T18:57:25+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 6.97}
+{"ts": "2026-08-12T18:57:40+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-12T18:57:44+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1458", "title": "《우순옥_ 예술은 이미 당신의 마음속에 있다 \u000bArt is already in your mind 》"}
+{"ts": "2026-08-12T18:57:45+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1457", "title": "왕영미 개인전《Sunflower Codes》"}
+{"ts": "2026-08-12T18:57:46+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-12T18:57:46+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.74}
