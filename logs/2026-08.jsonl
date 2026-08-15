@@ -61,3 +61,6 @@
 {"ts": "2026-08-14T18:48:54+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1460", "title": "Visunium"}
 {"ts": "2026-08-14T18:48:55+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-14T18:48:55+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.19}
+{"ts": "2026-08-15T18:23:40+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-15T18:23:43+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-15T18:23:43+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 2.66}
