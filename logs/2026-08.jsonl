@@ -69,3 +69,6 @@
 {"ts": "2026-08-16T18:23:22+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1461", "title": "가물 玄(Unseen)"}
 {"ts": "2026-08-16T18:23:23+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-16T18:23:23+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.45}
+{"ts": "2026-08-17T18:34:04+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-17T18:34:10+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-17T18:34:10+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 6.47}
