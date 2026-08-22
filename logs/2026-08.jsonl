@@ -90,3 +90,10 @@
 {"ts": "2026-08-21T18:31:46+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1468", "title": "강석태 개인전 <별을 찾아가다>"}
 {"ts": "2026-08-21T18:31:47+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-21T18:31:47+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.61}
+{"ts": "2026-08-22T18:24:20+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-22T18:24:22+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1473", "title": "뒤집힌 이명 Reversed Alias/Tinnitus"}
+{"ts": "2026-08-22T18:24:23+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1472", "title": "빛이 생겨라"}
+{"ts": "2026-08-22T18:24:25+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1471", "title": "[청주 갤러리 원] A관 김다겸 개인전 \"일상의 바다\""}
+{"ts": "2026-08-22T18:24:26+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1470", "title": "[청주 갤러리 원] B관 청주 공예협회전\"﻿초대작가전\""}
+{"ts": "2026-08-22T18:24:27+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-22T18:24:27+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 4, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 7.51}
