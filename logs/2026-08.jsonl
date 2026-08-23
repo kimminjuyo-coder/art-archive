@@ -97,3 +97,7 @@
 {"ts": "2026-08-22T18:24:26+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1470", "title": "[청주 갤러리 원] B관 청주 공예협회전\"﻿초대작가전\""}
 {"ts": "2026-08-22T18:24:27+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-22T18:24:27+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 4, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 7.51}
+{"ts": "2026-08-23T18:23:25+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-23T18:23:28+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1475", "title": "공존의 경계에 흐르다: 파괴와 생성, 그리고 시선의 궤적"}
+{"ts": "2026-08-23T18:23:29+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-23T18:23:29+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.03}
