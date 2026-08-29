@@ -118,3 +118,7 @@
 {"ts": "2026-08-28T02:01:10+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1479", "title": "이원호 개인전 _ 얄궂게 파란"}
 {"ts": "2026-08-28T02:01:11+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-28T02:01:11+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 6.57}
+{"ts": "2026-08-29T01:26:22+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-29T01:26:25+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1481", "title": "[원주 갤러리 원] 유미숙 초대개인전 “어울다-소통”"}
+{"ts": "2026-08-29T01:26:26+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-29T01:26:26+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 3.9}
