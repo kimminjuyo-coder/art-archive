@@ -126,3 +126,9 @@
 {"ts": "2026-08-29T20:22:12+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1482", "title": "The same place, Another space"}
 {"ts": "2026-08-29T20:22:13+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-08-29T20:22:13+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 4.09}
+{"ts": "2026-08-30T20:30:40+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-08-30T20:30:48+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1485", "title": "[청주 갤러리 원] B관 김초윤 개인전 \"﻿카이로스로 만나는 감성적 순간들\""}
+{"ts": "2026-08-30T20:30:49+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1484", "title": "[청주 갤러리 원] A관 송원혜 개인전 \"﻿매란국죽 이야기-행복을 건네다-\""}
+{"ts": "2026-08-30T20:30:51+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1483", "title": "주련의 딱지:시간을 접다"}
+{"ts": "2026-08-30T20:30:52+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-08-30T20:30:52+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 11.64}
