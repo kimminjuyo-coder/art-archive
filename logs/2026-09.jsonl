@@ -1,3 +1,9 @@
 {"ts": "2026-09-01T20:30:28+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
 {"ts": "2026-09-01T20:30:31+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-09-01T20:30:31+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 3.51}
+{"ts": "2026-09-02T20:28:38+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-09-02T20:28:43+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1488", "title": "생기(生ː器)_재형의 유희"}
+{"ts": "2026-09-02T20:28:44+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1487", "title": "2026 제 30회 제주미술제 《별 : 별 제미: 프리뷰 파빌리온》"}
+{"ts": "2026-09-02T20:28:45+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1486", "title": "﻿컬러의 들판: COLORED FIELD – 송인헌 기획초대전"}
+{"ts": "2026-09-02T20:28:46+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-09-02T20:28:46+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 3, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 8.3}
