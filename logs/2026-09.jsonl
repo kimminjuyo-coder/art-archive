@@ -60,3 +60,8 @@
 {"ts": "2026-09-16T20:50:54+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1499", "title": "﻿<스윽, 탁: 이 움직임에 동의한다면> 김동규 기획초대전"}
 {"ts": "2026-09-16T20:50:55+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
 {"ts": "2026-09-16T20:50:55+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 1, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 3.88}
+{"ts": "2026-09-17T20:55:52+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-09-17T20:55:55+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1501", "title": "[청주 갤러리 원] B관 정미경 개인전\"﻿﻿뻔한 FUN : 행복의 순환\""}
+{"ts": "2026-09-17T20:55:56+00:00", "level": "INFO", "msg": "exhibition_inserted", "event": "exhibition_inserted", "url": "https://artnet.kr/p/solo-exhibitions/1500", "title": "서수연 개인전: Blooming Together"}
+{"ts": "2026-09-17T20:55:57+00:00", "level": "INFO", "msg": "daily_stop_threshold_reached", "event": "daily_stop", "threshold": 5}
+{"ts": "2026-09-17T20:55:57+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 2, "skipped_dup": 5, "errors": 0, "aborted": false, "duration_sec": 5.23}
