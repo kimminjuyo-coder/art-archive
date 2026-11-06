@@ -8,3 +8,5 @@
 {"ts": "2026-11-04T23:10:08+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 0, "errors": 0, "aborted": false, "duration_sec": 3.7}
 {"ts": "2026-11-05T23:14:06+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
 {"ts": "2026-11-05T23:14:08+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 0, "errors": 0, "aborted": false, "duration_sec": 2.77}
+{"ts": "2026-11-06T22:40:59+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-11-06T22:41:02+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 0, "errors": 0, "aborted": false, "duration_sec": 2.98}
