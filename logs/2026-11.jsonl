@@ -34,3 +34,5 @@
 {"ts": "2026-11-18T00:28:27+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 0, "errors": 0, "aborted": false, "duration_sec": 3.28}
 {"ts": "2026-11-18T23:51:39+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
 {"ts": "2026-11-18T23:51:42+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 0, "errors": 0, "aborted": false, "duration_sec": 2.58}
+{"ts": "2026-11-20T00:16:11+00:00", "level": "INFO", "msg": "run_start", "event": "run_start", "mode": "daily", "adapter": "artnet"}
+{"ts": "2026-11-20T00:16:25+00:00", "level": "INFO", "msg": "run_end", "event": "run_end", "mode": "daily", "adapter": "artnet", "inserted": 0, "skipped_dup": 0, "errors": 0, "aborted": false, "duration_sec": 13.88}
